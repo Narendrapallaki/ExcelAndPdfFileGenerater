@@ -2,7 +2,7 @@ package com.excelAndpdf.userControllor;
 
 import java.util.List;
 
-import org.apache.poi.hpsf.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.ResponseEntity;
@@ -14,15 +14,14 @@ import com.excelAndpdf.service.ExcelAndPdfService;
 import com.excelAndpdf.service.ExcelService;
 import com.excelAndpdf.service.PdfService;
 
-import jakarta.servlet.http.HttpServletResponse;
+
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
